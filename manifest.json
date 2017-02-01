@@ -1,0 +1,21 @@
+{
+  "name": "Discord",
+  "description": "All-in-one voice and text chat for gamers that’s free, secure, and works on both your desktop and phone. Stop paying for TeamSpeak servers and hassling with Skype. Simplify your life.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["storage",
+   "alarms",
+    "notifications",
+    "webview",
+    "audioCapture",
+    "identity",
+    "https://*.discordapp.com/*"
+
+   ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "discord-16.png", "128": "discord-128.png" }
+}
